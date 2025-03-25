@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0e1017;
+    justify-items: center;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.title{
+    color: white;
+    right: 0;
+}
+
+.main-title{
+    color: white;
+    font-size: 50px;
+    margin: 30px 0px 30px 0px;
+}
+
+header{
+    background-color: black;
+    width: 70%;
+    height: 70px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.ul-menu {
+    display: flex;
+    list-style: none;
+    float: right;
+
+}
+
+.item-menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.item-menu{
+    padding: 10px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan-title{
+    border-bottom: 2px solid #cae301;
+    
+}
+
+article{
+    background-color: #1f262c;
+    color: white;
+    border-radius: 10px;
+    margin: 20px;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+}
+
+
+.list-plan{
+    padding-left: 20px;
+    height: 150px;
+}
+
+
+li::marker {
+    color: #cae301;
+}
+
+.button a {
+    text-align: center;
+    background-color: #cae301;
+    color: black;
+    font-weight: 505;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px 109.97px 15px 109.97px;
+}
+
+article h2{
+    margin: 20px 0px 20px 0px;
+}
+
+#planos{
+    padding: 10px;
+    background-color: #cae301;
+    border-radius: 10px;
+    color: black;
+}
+
+.button a::hover{
+    background-color: #c9e30159;
+}
