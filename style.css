@@ -13,6 +13,7 @@ body{
 .title{
     color: white;
     right: 0;
+    padding: 0px;
 }
 
 .main-title{
@@ -94,13 +95,23 @@ article h2{
     margin: 20px 0px 20px 0px;
 }
 
-#planos{
+#planos--active{
     padding: 10px;
     background-color: #cae301;
     border-radius: 10px;
     color: black;
+    pointer-events: none;
 }
 
-.button a::hover{
-    background-color: #c9e30159;
+.button a:hover{
+    background-color: #e3fa37;
 }
+
+.plan-pricing{
+    font-size: 12px;
+}
+
+.ul-menu a:hover{
+    border-bottom: solid 2px #cae301
+}
+
